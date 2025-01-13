@@ -136,10 +136,17 @@ i {
     border-radius: 5px;
     padding: 50px;
     color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#title {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 #signup {
     background-color: rgb(121, 121, 198);
-    border-width:medium;
+    border: 2px solid;
     border-color: white;
 }
